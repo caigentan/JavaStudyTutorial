@@ -19,6 +19,11 @@ public class SortDemos {
         personList.add(person1);
         personList.add(person2);
         personList.add(person3);
+
+        for(Person person: personList){
+            System.out.println(person.getName() + " " + person.getAge());
+        }
+
         Collections.sort(personList);
 
         for(Person person: personList){
