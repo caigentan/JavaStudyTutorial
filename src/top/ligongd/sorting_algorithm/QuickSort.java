@@ -6,10 +6,10 @@
 package top.ligongd.sorting_algorithm;
 
 public class QuickSort {
-    int[] input = new int[]{1,3,25,2,7,19,4,3,15,22};
+//    int[] input = new int[]{1,3,25,2,7,19,4,3,15,22};
 
     public static void main(String[] args) {
-        int[] input = new int[]{1,3,25,2,7,19,4,3,15,22};
+        int[] input = new int[]{3,2,1,5,6,4};
         quickSort(input,0, input.length-1);
         for(int x : input){
             System.out.println(x);
