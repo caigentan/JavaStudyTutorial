@@ -5,16 +5,13 @@
  */
 package top.ligongd.demos;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 class Demo {
-    public static int aTemp = 0;
+
     public static void main(String[] args) {
-        Demo demo1 = new Demo();
-        Demo demo2 = new Demo();
-        demo1.aTemp = 3;
-        System.out.println(demo2.aTemp);
+        List<int[]> res = new ArrayList<>();
+//        res.add("");
+        System.out.println(res.contains(new int[]{1,2}));
     }
 }
