@@ -12,4 +12,10 @@ public class RunnableThread implements Runnable{
         while(j < 5)
             System.out.println("RunnableThread " + j++);
     }
+
+    public static void main(String[] args) {
+        new Thread(() -> {
+            System.out.println("new Thread start");
+        }).start();
+    }
 }
