@@ -30,5 +30,6 @@ public class CompareToSort {
 
         Stream<Double> doubleStream = Stream.generate(Math::random);
         doubleStream.forEach(System.out::println);
+
     }
 }
